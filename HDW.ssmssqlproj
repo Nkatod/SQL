@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HDW">
+  <Items>
+    <LogicalFolder Name="Соединения" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="192.168.11.232:LANCETPHARM\a.chibizov">
+          <Created>2019-06-06T17:44:10.1491499+03:00</Created>
+          <Type>SQL</Type>
+          <Server>192.168.11.232</Server>
+          <UserName />
+          <Authentication>Проверка подлинности Windows</Authentication>
+          <InitialDB>HWC_DATA_LANCET</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Среда Microsoft SQL Server Management Studio - запрос</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="78.155.222.30,7453:Lancet">
+          <Created>2019-06-07T09:38:43.8001499+03:00</Created>
+          <Type>SQL</Type>
+          <Server>78.155.222.30,7453</Server>
+          <UserName>Lancet</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Среда Microsoft SQL Server Management Studio - запрос</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="lcp-srv-03\sql2012:LANCETPHARM\a.chibizov">
+          <Created>2019-06-14T10:06:28.1511499+03:00</Created>
+          <Type>SQL</Type>
+          <Server>lcp-srv-03\sql2012</Server>
+          <UserName />
+          <Authentication>Проверка подлинности Windows</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+        <ConnectionNode Name="srv-dev\sql2012:1cdbowner">
+          <Created>2019-06-13T11:16:09.9931499+03:00</Created>
+          <Type>SQL</Type>
+          <Server>srv-dev\sql2012</Server>
+          <UserName>1cdbowner</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Среда Microsoft SQL Server Management Studio - запрос</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Запросы" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="db_logUpgrade.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srv-dev\sql2012:False:1cdbowner</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srv-dev\sql2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>1cdbowner</AssociatedConnUserName>
+          <FullPath>db_logUpgrade.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.11.232:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.11.232</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Вьюха.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.11.232:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.11.232</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Вьюха.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Свертка таблицы.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:lcp-srv-03\sql2012:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>lcp-srv-03\sql2012</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Свертка таблицы.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Создание секций таблицы.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:srv-dev\sql2012:False:1cdbowner</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>srv-dev\sql2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>1cdbowner</AssociatedConnUserName>
+          <FullPath>Создание секций таблицы.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Разное" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
